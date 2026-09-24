@@ -1,472 +1,468 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loyiha ishi</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-           <nav class="navbar">
-         <img src="images/loyiha header.png" alt="">
-          <ul class="nav_links">
-            <li><a href="#" class="nav_link">About</a></li>
-            <li><a href="#" class="nav_link">Car</a></li>
-            <li><a href="#" class="nav_link">Become Partner</a></li>
-            <li><a href="#" class="nav_link">Terms & Conditions</a></li>
-            <li><a href="#" class="nav_link">Contact Us</a></li>
-          </ul>
-        </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <img src="images/loyiha header.png" alt="Logo" class="logo">
+        <ul class="nav_links">
+          <li><a href="#" class="nav_link">About</a></li>
+          <li><a href="#" class="nav_link">Car</a></li>
+          <li><a href="#" class="nav_link">Become Partner</a></li>
+          <li><a href="#" class="nav_link">Terms & Conditions</a></li>
+          <li><a href="#" class="nav_link">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <!-- Chap taraf: Matnlar va Tugmalar -->
+        <div class="hero-wrapper">
+          <h1 class="hero-title">
+            We Have Prepared a Car For Your Trip 
+          </h1>
+          <p class="hero-text">
+            We have many types of cars that are ready for you to travel anywhere and anytime.
+          </p>
+          <div class="hero-btns">
+            <button class="hero-btn-active">Get In Touch</button>
+            <button class="hero-btn">Our Car</button>
+          </div>
         </div>
 
-        <div class="hero">
-          <div class="hero-wrapper">
-            <h1 class="hero-title">
-               We Have Prepared a Car For Your Trip 
-            </h1>
-            <p class="hero-text">
-                We have many types of cars that are ready for you to travel anywhere and anytime.
-            </p>
-            </div>
-          <img class="hero-img" src="images/Mask group (1).png" alt="" />
-          <img class="hero-img-toyota" src="images/Toyota Camry Home 1.png" alt="">
+        <!-- O'ng taraf: Xarita va Mashina rasmi -->
+        <div class="hero-img-box">
+          <img class="hero-img-map" src="images/Mask group (1).png" alt="Map" />
+          <img class="hero-img-toyota" src="images/Toyota Camry Home 1.png" alt="Toyota Camry">
         </div>
-        <button class="hero-btn-active">Get In Touch</button>
-        <button class="hero-btn">Our Car</button>
-      </div>
-    </header>
-
-    <section class="hero-container">
-      <div class="booking-bar">
-    <div class="booking-item">
-      <span class="icon">📍</span>
-      <div>
-        <label>Location</label>
-        <select><option>Abuja</option></select>
       </div>
     </div>
+  </header>
 
-    <div class="booking-item">
-      <span class="icon">🏢</span>
-      <div>
-        <label>Room type</label>
-        <select><option>Standard</option></select>
-      </div>
-    </div>
-
-    <div class="booking-item">
-      <span class="icon">👤</span>
-      <div>
-        <label>Person</label>
-        <select><option>01</option></select>
-      </div>
-    </div>
-
-    <div class="booking-item">
-      <span class="icon">📅</span>
-      <div>
-        <label>Check in</label>
-        <select><option>09 May 2023</option></select>
-      </div>
-    </div>
-
-    <div class="booking-item">
-      <span class="icon">📅</span>
-      <div>
-        <label>Check out</label>
-        <select><option>12 May 2023</option></select>
-      </div>
-    </div>
-    </section>
-
-    <section class="popular-cars-section">
-  <!-- Brand logos -->
-  <div class="brands-container">
-    <img src="images/BMW.png" alt="BMW">
-    <img src="images/lexus-logo.png" alt="Lexus">
-    <img src="images/Marcedes.png" alt="Mercedes">
-    <img src="images/Honda.png" alt="Honda">
-    <img src="images/Hyundai.png" alt="Hyundai">
-    <img src="images/Nissan.png" alt="Nissan">
-    <img src="images/Toyota.png" alt="Toyota">
-    <img src="images/KIA.png" alt="Kia">
-  </div>
-
-  <!-- Header text -->
-  <div class="section-header">
-    <span class="sub-title">POPULAR CAR</span>
-    <h2>Choose Your Suitable Car</h2>
-    <p>We present popular cars that are rented by customers to maximize your comfort on long trips.</p>
-  </div>
-
-  <!-- Car cards grid -->
-  <div class="cars-grid">
-    <!-- Card 1 -->
-    <div class="car-card">
-      <div class="card-img">
-        <img src="images/Frame 190.png" alt="Lexus CT200H">
-      </div>
-      <div class="card-body">
-        <h3>Lexus CT200H</h3>
-        <div class="card-info">
-          <div class="price">$120 <span>/Day</span></div>
-          <div class="location">📍 Djakarta</div>
-        </div>
-        <button class="btn-rent active">📞 Rent Now</button>
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="car-card">
-      <div class="card-img">
-        <img src="images/Frame 202.png" alt="Jaguar F-Pace">
-      </div>
-      <div class="card-body">
-        <h3>Jaguar F-Pace</h3>
-        <div class="card-info">
-          <div class="price">$132 <span>/Day</span></div>
-          <div class="location">📍 Bali</div>
-        </div>
-        <button class="btn-rent">📞 Rent Now</button>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="car-card">
-      <div class="card-img">
-        <img src="images/Frame 201.png" alt="Marcedes Benz">
-      </div>
-      <div class="card-body">
-        <h3>Marcedes Benz</h3>
-        <div class="card-info">
-          <div class="price">$132 <span>/Day</span></div>
-          <div class="location">📍 Bandung</div>
-        </div>
-        <button class="btn-rent">📞 Rent Now</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- See All Button -->
-  <div class="see-all-container">
-    <button class="btn-see-all">See All</button>
-  </div>
-</section>
-
-
-<section class="services-section">
-  <div class="services-header">
-    <span class="sub-title">SERVICES</span>
-    <h2>Our Services</h2>
-    <p>Our service is not only renting a car, but we also provide a private chauffeur service that can guide you on your trip and also longtrip packages to support your travel needs.</p>
-  </div>
-
-  <div class="services-grid">
-    <!-- Card 1 (Active/Highlighted) -->
-    <div class="service-card active">
-      <div class="card-bg" style="background-image: url('car1.jpg');"></div>
-      <div class="card-content">
-        <div class="icon">🔑</div>
-        <h3>Instant Rent</h3>
-        <p>We provide direct rental services when you need wherever you are. Our officers are quick to respond in carrying out this task...</p>
-        <button class="btn-read-more btn-primary">Read More</button>
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="service-card">
-      <div class="card-bg" style="background-image: url('driver.jpg');"></div>
-      <div class="card-content">
-        <div class="icon">👤</div>
-        <h3>Private Driver</h3>
-        <p>We have professional agents to accompany your trip useful for your protection from disturbances that you do not like...</p>
-        <button class="btn-read-more btn-light">Read More</button>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="service-card">
-      <div class="card-bg" style="background-image: url('car2.jpg');"></div>
-      <div class="card-content">
-        <div class="icon">🚗</div>
-        <h3>Long Trip</h3>
-        <p>Long trips whenever and wherever you want can comfortably use our car collection that supports long and long trips...</p>
-        <button class="btn-read-more btn-light">Read More</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="advantages-section">
-  <!-- Header -->
-  <div class="advantages-header">
-    <span class="sub-title">ADVANTAGES</span>
-    <h2>Why Choose Us ?</h2>
-    <p>We present many guarantees and advantages when you rent a car with us for your trip. Here are some of the advantages that you will get</p>
-  </div>
-
-  <!-- Grid Layout (2 qator, 3 ta ustun) -->
-  <div class="advantages-grid">
-    <!-- Item 1 -->
-    <div class="advantage-item">
-      <div class="icon">🚀</div>
-      <div class="content">
-        <h3>Easy Rent</h3>
-        <p>Rent a car at our rental with an easy and fast process without disturbing your productivity</p>
-      </div>
-    </div>
-
-    <!-- Item 2 -->
-    <div class="advantage-item">
-      <div class="icon-box">✓</div>
-      <div class="content">
-        <h3>Premium Quality</h3>
-        <p>Our cars are always maintained engine health and cleanliness to provide a more comfortable driving experience</p>
-      </div>
-    </div>
-
-    <!-- Item 3 -->
-    <div class="advantage-item">
-      <div class="icon">👨‍💼</div>
-      <div class="content">
-        <h3>Professional Agent</h3>
-        <p>You can ask your travel companion to escort and guide your journey.</p>
-      </div>
-    </div>
-
-    <!-- Item 4 -->
-    <div class="advantage-item">
-      <div class="icon">🛡️</div>
-      <div class="content">
-        <h3>Car Safety</h3>
-        <p>We guarantee the safety of the engine on the car always running well with regular checks on the car engine.</p>
-      </div>
-    </div>
-
-    <!-- Item 5 -->
-    <div class="advantage-item">
-      <div class="icon">🔻</div>
-      <div class="content">
-        <h3>Refund</h3>
-        <p>Our service guarantee provides a money back opportunity if the car does not match the information provided.</p>
-      </div>
-    </div>
-
-    <!-- Item 6 -->
-    <div class="advantage-item">
-      <div class="icon">📚</div>
-      <div class="content">
-        <h3>Live Monitoring</h3>
-        <p>Our service provides direct customer monitoring to monitor trips in terms of safety and comfort.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="contact-section">
-  <div class="contact-container">
-    <!-- Chap tomon: Aloqa ma'lumotlari -->
-    <div class="contact-info">
-      <span class="sub-title">GET IN TOUCH</span>
-      <h2>Contact Us</h2>
-      <p class="description">
-        If you need consultation with us, you can write a message or call us, we will respond as quickly as possible
-      </p>
-
-      <ul class="info-list">
-        <li>
-          <span class="icon">✉️</span>
-          <a href="mailto:lorenna@gmail.com">lorenna@gmail.com</a>
-        </li>
-        <li>
-          <span class="icon">📞</span>
-          <a href="tel:+62822112220001">+62 8221 1222 0001</a>
-        </li>
-        <li>
-          <span class="icon">⏰</span>
-          <span>Everyday : 08.00-21.00</span>
-        </li>
-        <li>
-          <span class="icon">📍</span>
-          <span>Jl. Raya Cihaluan No.112 Tangerang Selatan, Indonesia 41222</span>
-        </li>
-      </ul>
-
-      <!-- Ijtimoiy tarmoqlar -->
-      <div class="social-links">
-        <a href="#" class="social-icon active"><img src="images/Group 8.png" alt=""></a>
-        <a href="#" class="social-icon"><img src="images/Twitter.png" alt=""></a>
-        <a href="#" class="social-icon"><img src="images/Vector (12).png" alt=""></a>
-        <a href="#" class="social-icon"><img src="images/Group 14.png" alt=""></a>
-      </div>
-    </div>
-
-    <!-- O'ng tomon: Xarita va tugma -->
-    <div class="contact-map">
-      <div class="map-wrapper">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.22855132924!2d106.738392!3d-6.257008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f00000000001%3A0x0!2zNsKwMTUnMjUuMiJTIDEwNsKwNDQnMjEuMiJF!5e0!3m2!1sen!2sid!4v1600000000000!5m2!1sen!2sid" 
-          width="100%" 
-          height="100%" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy">
-        </iframe>
-      </div>
-      <button class="btn-map">Office Center Map</button>
-    </div>
-  </div>
-</section>
-
-
-<section class="reviews-section">
-  <!-- Header -->
-  <div class="reviews-header">
-    <span class="sub-title">OUR REVIEW</span>
-    <h2>What They Say ?</h2>
-    <p>Here are some comments from our customers, be one of them</p>
-  </div>
-
-  <!-- Cards Grid -->
-  <div class="reviews-grid">
-    <!-- Card 1 -->
-    <div class="review-card">
-      <div class="card-top">
-        <span class="quote-icon">“</span>
-        <div class="stars">★★★★★</div>
-      </div>
-      <p class="review-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum, elementum purus aliquet. Porttitor elementum a felis, tempus erat orci.
-      </p>
-      <div class="user-info">
-        <img src="images/Ellipse 3.png" alt="Melinda Lenny" class="avatar">
+  <!-- Booking Bar Section -->
+  <section class="hero-container">
+    <div class="booking-bar">
+      <div class="booking-item">
+        <span class="icon">📍</span>
         <div>
-          <h4>Melinda Lenny</h4>
-          <span>Medan</span>
+          <label>Location</label>
+          <select><option>Abuja</option></select>
         </div>
       </div>
-    </div>
 
-    <!-- Card 2 -->
-    <div class="review-card">
-      <div class="card-top">
-        <span class="quote-icon">“</span>
-        <div class="stars">★★★★★</div>
-      </div>
-      <p class="review-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum, elementum purus aliquet. Porttitor elementum a felis, tempus erat orci.
-      </p>
-      <div class="user-info">
-        <img src="images/Ellipse 4.png" alt="Jacob Stevan" class="avatar">
+      <div class="booking-item">
+        <span class="icon">🏢</span>
         <div>
-          <h4>Jacob Stevan</h4>
-          <span>Bandung</span>
+          <label>Room type</label>
+          <select><option>Standard</option></select>
         </div>
       </div>
-    </div>
 
-    <!-- Card 3 -->
-    <div class="review-card">
-      <div class="card-top">
-        <span class="quote-icon">“</span>
-        <div class="stars">
-          ★★★★<span class="star-gray">★</span>
-        </div>
-      </div>
-      <p class="review-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum, elementum purus aliquet. Porttitor elementum a felis, tempus erat orci.
-      </p>
-      <div class="user-info">
-        <img src="images/Ellipse 5 (1).png" alt="Roben Musstar" class="avatar">
+      <div class="booking-item">
+        <span class="icon">👤</span>
         <div>
-          <h4>Roben Musstar</h4>
-          <span>Bali</span>
+          <label>Person</label>
+          <select><option>01</option></select>
+        </div>
+      </div>
+
+      <div class="booking-item">
+        <span class="icon">📅</span>
+        <div>
+          <label>Check in</label>
+          <select><option>09 May 2023</option></select>
+        </div>
+      </div>
+
+      <div class="booking-item">
+        <span class="icon">📅</span>
+        <div>
+          <label>Check out</label>
+          <select><option>12 May 2023</option></select>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- Button -->
-  <div class="see-all-container">
-    <button class="btn-see-all">See All</button>
-  </div>
-</section>
+  <!-- Popular Cars Section -->
+  <section class="popular-cars-section">
+    <!-- Brand logos -->
+    <div class="brands-container">
+      <img src="images/BMW.png" alt="BMW">
+      <img src="images/lexus-logo.png" alt="Lexus">
+      <img src="images/Marcedes.png" alt="Mercedes">
+      <img src="images/Honda.png" alt="Honda">
+      <img src="images/Hyundai.png" alt="Hyundai">
+      <img src="images/Nissan.png" alt="Nissan">
+      <img src="images/Toyota.png" alt="Toyota">
+      <img src="images/KIA.png" alt="Kia">
+    </div>
 
+    <!-- Header text -->
+    <div class="section-header">
+      <span class="sub-title">POPULAR CAR</span>
+      <h2>Choose Your Suitable Car</h2>
+      <p>We present popular cars that are rented by customers to maximize your comfort on long trips.</p>
+    </div>
 
-
-<!-- Subscribe Section -->
-<section class="subscribe-section">
-  <div class="subscribe-container">
-    <h2>SUBSCRIBE OUR NEWS</h2>
-    <p>We can help you provide the latest news whenever and wherever you are via email</p>
-    <form class="subscribe-form">
-      <div class="input-wrapper">
-        <span class="icon">✉</span>
-        <input type="email" placeholder="example.@gmail.com" required>
+    <!-- Car cards grid -->
+    <div class="cars-grid">
+      <!-- Card 1 -->
+      <div class="car-card">
+        <div class="card-img">
+          <img src="images/Frame 190.png" alt="Lexus CT200H">
+        </div>
+        <div class="card-body">
+          <h3>Lexus CT200H</h3>
+          <div class="card-info">
+            <div class="price">$120 <span>/Day</span></div>
+            <div class="location">📍 Djakarta</div>
+          </div>
+          <button class="btn-rent active">📞 Rent Now</button>
+        </div>
       </div>
-      <button type="submit" class="btn-subscribe">Subscribe</button>
-    </form>
-  </div>
-</section>
 
-<!-- Footer Section -->
-<footer class="footer-section">
-  <div class="footer-container">
-    <!-- Brand Info -->
-    <div class="footer-col brand-col">
-      <h2 class="logo">O<span class="logo-red">RENN</span></h2>
-      <p>We are a well-known car rental service that has many partners in each region to connect with you to assist in your trip in meetings, events, holidays or long trips.</p>
-      <div class="social-links">
-        <a href="#" class="social-icon active">in</a>
-        <a href="#" class="social-icon">🐦</a>
-        <a href="#" class="social-icon">f</a>
-        <a href="#" class="social-icon">📷</a>
+      <!-- Card 2 -->
+      <div class="car-card">
+        <div class="card-img">
+          <img src="images/Frame 202.png" alt="Jaguar F-Pace">
+        </div>
+        <div class="card-body">
+          <h3>Jaguar F-Pace</h3>
+          <div class="card-info">
+            <div class="price">$132 <span>/Day</span></div>
+            <div class="location">📍 Bali</div>
+          </div>
+          <button class="btn-rent">📞 Rent Now</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="car-card">
+        <div class="card-img">
+          <img src="images/Frame 201.png" alt="Marcedes Benz">
+        </div>
+        <div class="card-body">
+          <h3>Marcedes Benz</h3>
+          <div class="card-info">
+            <div class="price">$132 <span>/Day</span></div>
+            <div class="location">📍 Bandung</div>
+          </div>
+          <button class="btn-rent">📞 Rent Now</button>
+        </div>
       </div>
     </div>
 
-    <!-- Company Links -->
-    <div class="footer-col">
-      <h3>Company</h3>
-      <ul>
-        <li><a href="#" class="active">• About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Cars</a></li>
-        <li><a href="#">Our Partner</a></li>
-      </ul>
+    <!-- See All Button -->
+    <div class="see-all-container">
+      <button class="btn-see-all">See All</button>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="services-header">
+      <span class="sub-title">SERVICES</span>
+      <h2>Our Services</h2>
+      <p>Our service is not only renting a car, but we also provide a private chauffeur service that can guide you on your trip and also longtrip packages to support your travel needs.</p>
     </div>
 
-    <!-- Services Links -->
-    <div class="footer-col">
-      <h3>Services</h3>
-      <ul>
-        <li><a href="#">Instant Rent</a></li>
-        <li><a href="#">Private Driver</a></li>
-        <li><a href="#">Long Trip</a></li>
-      </ul>
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <div class="service-card active">
+        <div class="card-bg">
+          <img src="images/orqa fon.png" alt="Instant Rent">
+        </div>
+        <div class="card-content">
+          <div class="icon">🔑</div>
+          <h3>Instant Rent</h3>
+          <p>We provide direct rental services when you need wherever you are. Our officers are quick to respond in carrying out this task...</p>
+          <button class="btn-read-more btn-primary">Read More</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card">
+        <div class="card-bg">
+          <img src="images/orqa fon 2.png" alt="Private Driver">
+        </div>
+        <div class="card-content">
+          <div class="icon">👤</div>
+          <h3>Private Driver</h3>
+          <p>We have professional agents to accompany your trip useful for your protection from disturbances that you do not like...</p>
+          <button class="btn-read-more btn-light">Read More</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card">
+        <div class="card-bg">
+          <img src="images/orqa fon 3.png" alt="Long Trip">
+        </div>
+        <div class="card-content">
+          <div class="icon">🚗</div>
+          <h3>Long Trip</h3>
+          <p>Long trips whenever and wherever you want can comfortably use our car collection that supports long and long trips...</p>
+          <button class="btn-read-more btn-light">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advantages Section -->
+  <section class="advantages-section">
+    <div class="advantages-header">
+      <span class="sub-title">ADVANTAGES</span>
+      <h2>Why Choose Us ?</h2>
+      <p>We present many guarantees and advantages when you rent a car with us for your trip. Here are some of the advantages that you will get</p>
     </div>
 
-    <!-- Support Links -->
-    <div class="footer-col">
-      <h3>Support</h3>
-      <ul>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Call Center</a></li>
-        <li><a href="#">Partner With Us</a></li>
-        <li><a href="#">Terms & Condition</a></li>
-      </ul>
+    <div class="advantages-grid">
+      <div class="advantage-item">
+        <div class="icon">🚀</div>
+        <div class="content">
+          <h3>Easy Rent</h3>
+          <p>Rent a car at our rental with an easy and fast process without disturbing your productivity</p>
+        </div>
+      </div>
+
+      <div class="advantage-item">
+        <div class="icon-box">✓</div>
+        <div class="content">
+          <h3>Premium Quality</h3>
+          <p>Our cars are always maintained engine health and cleanliness to provide a more comfortable driving experience</p>
+        </div>
+      </div>
+
+      <div class="advantage-item">
+        <div class="icon">👨‍💼</div>
+        <div class="content">
+          <h3>Professional Agent</h3>
+          <p>You can ask your travel companion to escort and guide your journey.</p>
+        </div>
+      </div>
+
+      <div class="advantage-item">
+        <div class="icon">🛡️</div>
+        <div class="content">
+          <h3>Car Safety</h3>
+          <p>We guarantee the safety of the engine on the car always running well with regular checks on the car engine.</p>
+        </div>
+      </div>
+
+      <div class="advantage-item">
+        <div class="icon">🔻</div>
+        <div class="content">
+          <h3>Refund</h3>
+          <p>Our service guarantee provides a money back opportunity if the car does not match the information provided.</p>
+        </div>
+      </div>
+
+      <div class="advantage-item">
+        <div class="icon">📚</div>
+        <div class="content">
+          <h3>Live Monitoring</h3>
+          <p>Our service provides direct customer monitoring to monitor trips in terms of safety and comfort.</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <!-- Scroll To Top Button -->
-  <a href="#" class="scroll-top">^</a>
-</footer>
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-info">
+        <span class="sub-title">GET IN TOUCH</span>
+        <h2>Contact Us</h2>
+        <p class="description">
+          If you need consultation with us, you can write a message or call us, we will respond as quickly as possible
+        </p>
 
-    
-  
+        <ul class="info-list">
+          <li>
+            <span class="icon">✉️</span>
+            <a href="mailto:lorenna@gmail.com">lorenna@gmail.com</a>
+          </li>
+          <li>
+            <span class="icon">📞</span>
+            <a href="tel:+62822112220001">+62 8221 1222 0001</a>
+          </li>
+          <li>
+            <span class="icon">⏰</span>
+            <span>Everyday : 08.00-21.00</span>
+          </li>
+          <li>
+            <span class="icon">📍</span>
+            <span>Jl. Raya Cihaluan No.112 Tangerang Selatan, Indonesia 41222</span>
+          </li>
+        </ul>
+
+        <div class="social-links">
+          <a href="#" class="social-icon active"><img src="images/Group 8.png" alt="Facebook"></a>
+          <a href="#" class="social-icon"><img src="images/Twitter.png" alt="Twitter"></a>
+          <a href="#" class="social-icon"><img src="images/Vector (12).png" alt="Instagram"></a>
+          <a href="#" class="social-icon"><img src="images/Group 14.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <div class="map-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.22855132924!2d106.738392!3d-6.257008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f00000000001%3A0x0!2zNsKwMTUnMjUuMiJTIDEwNsKwNDQnMjEuMiJF!5e0!3m2!1sen!2sid!4v1600000000000!5m2!1sen!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+        <button class="btn-map">Office Center Map</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section">
+    <div class="reviews-header">
+      <span class="sub-title">OUR REVIEW</span>
+      <h2>What They Say ?</h2>
+      <p>Here are some comments from our customers, be one of them</p>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="card-top">
+          <span class="quote-icon">“</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <p class="review-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum, elementum purus aliquet. Porttitor elementum a felis, tempus erat orci.
+        </p>
+        <div class="user-info">
+          <img src="images/Ellipse 3.png" alt="Melinda Lenny" class="avatar">
+          <div>
+            <h4>Melinda Lenny</h4>
+            <span>Medan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="card-top">
+          <span class="quote-icon">“</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <p class="review-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum, elementum purus aliquet. Porttitor elementum a felis, tempus erat orci.
+        </p>
+        <div class="user-info">
+          <img src="images/Ellipse 4.png" alt="Jacob Stevan" class="avatar">
+          <div>
+            <h4>Jacob Stevan</h4>
+            <span>Bandung</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="card-top">
+          <span class="quote-icon">“</span>
+          <div class="stars">
+            ★★★★<span class="star-gray">★</span>
+          </div>
+        </div>
+        <p class="review-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nam suscipit amet nec eget fermentum, elementum purus aliquet. Porttitor elementum a felis, tempus erat orci.
+        </p>
+        <div class="user-info">
+          <img src="images/Ellipse 5 (1).png" alt="Roben Musstar" class="avatar">
+          <div>
+            <h4>Roben Musstar</h4>
+            <span>Bali</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="see-all-container">
+      <button class="btn-see-all">See All</button>
+    </div>
+  </section>
+
+  <!-- Subscribe Section -->
+  <section class="subscribe-section">
+    <div class="subscribe-container">
+      <h2>SUBSCRIBE OUR NEWS</h2>
+      <p>We can help you provide the latest news whenever and wherever you are via email</p>
+      <form class="subscribe-form">
+        <div class="input-wrapper">
+          <span class="icon">✉</span>
+          <input type="email" placeholder="example.@gmail.com" required>
+        </div>
+        <button type="submit" class="btn-subscribe">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <h2 class="logo">O<span class="logo-red">RENN</span></h2>
+        <p>We are a well-known car rental service that has many partners in each region to connect with you to assist in your trip in meetings, events, holidays or long trips.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon active"><img src="images/Group 8.png" alt="Facebook"></a>
+          <a href="#" class="social-icon"><img src="images/Twitter.png" alt="Twitter"></a>
+          <a href="#" class="social-icon"><img src="images/Vector (12).png" alt="Instagram"></a>
+          <a href="#" class="social-icon"><img src="images/Group 14.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#" class="active">• About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Cars</a></li>
+          <li><a href="#">Our Partner</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Instant Rent</a></li>
+          <li><a href="#">Private Driver</a></li>
+          <li><a href="#">Long Trip</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Call Center</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#" class="scroll-top">^</a>
+  </footer>
 
 </body>
 </html>
