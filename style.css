@@ -785,9 +785,10 @@ header {
   min-width: 25px;
 }
 
-.social-links {
+ .social-links {
   display: flex;
   gap: 12px;
+  color: #fff;
 }
 
 .social-icon {
@@ -800,20 +801,29 @@ header {
   text-decoration: none;
   border-radius: 6px;
   transition: all 0.3s ease;
+  color: #fff;
 }
 
 .social-icon img {
   width: 16px;
   height: 16px;
   object-fit: contain;
+  transition: filter 0.3s ease;
 }
 
+/* Hover va Active holatida orqa fon hamda chegara OQ bo'ladi */
 .social-icon.active,
 .social-icon:hover {
-  background-color: #ff5252;
-  border-color: #ff5252;
+  background-color: black; /* Orqa fon oq */
+  border-color:#d31010;     /* Chegara rangi oq */
   transform: translateY(-3px);
-  box-shadow: 0 5px 12px rgba(255, 82, 82, 0.3);
+  box-shadow: 0 5px 12px rgb(253, 252, 252); /* Soyasi ham oqish shaklda */
+}
+
+/* Agar SVG/PNG rasmlar oq rangda bo'lsa va oq fonda yo'qolib qolsa, olib borilganda rangini to'q qilish uchun: */
+.social-icon.active img,
+.social-icon:hover img {
+  filter: brightness(white); /* Ikonkalami qora/to'q rangga aylantiradi */
 }
 
 .contact-map {
